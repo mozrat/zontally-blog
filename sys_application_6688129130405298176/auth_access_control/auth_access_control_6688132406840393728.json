@@ -1,0 +1,21 @@
+{
+  "action": "delete",
+  "name": "x_6688129130405298176_post",
+  "roles": [
+    {
+      "display": "admin",
+      "value": "6578606936407670785"
+    }
+  ],
+  "sys_application": {
+    "sys_id": "6688129130405298176"
+  },
+  "sys_class_name": "auth_access_control",
+  "sys_created_by": "admin",
+  "sys_created_on": "2020-07-12T17:30:25.281Z",
+  "sys_id": "6688132406840393728",
+  "sys_mod_count": 0,
+  "sys_updated_by": "admin",
+  "sys_updated_on": "2020-07-12T17:30:25.281Z",
+  "table": "x_6688129130405298176_post"
+}

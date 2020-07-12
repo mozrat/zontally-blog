@@ -1,0 +1,15 @@
+{
+  "description": "Default role that is mapped to all authenticated users",
+  "name": "platform_users",
+  "sys_application": {
+    "sys_id": "0000000000000000000",
+    "sys_class_name": "sys_application"
+  },
+  "sys_class_name": "auth_role",
+  "sys_created_by": "admin",
+  "sys_created_on": "2019-10-03T13:56:00.769Z",
+  "sys_id": "6585522683478278144",
+  "sys_mod_count": 0,
+  "sys_updated_by": "admin",
+  "sys_updated_on": "2019-10-03T13:56:00.769Z"
+}

@@ -1,0 +1,15 @@
+{
+  "description": "Guest user role that is mapped to all non-authenticated sessions",
+  "name": "default_guest",
+  "sys_application": {
+    "sys_id": "0000000000000000000",
+    "sys_class_name": "sys_application"
+  },
+  "sys_class_name": "auth_role",
+  "sys_created_by": "admin",
+  "sys_created_on": "2019-10-03T13:55:27.601Z",
+  "sys_id": "6585522544135110656",
+  "sys_mod_count": 0,
+  "sys_updated_by": "admin",
+  "sys_updated_on": "2019-10-03T13:55:27.601Z"
+}

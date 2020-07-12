@@ -1,0 +1,21 @@
+{
+  "collection": "x_6688129130405298176_post",
+  "display_value": null,
+  "field_type": "datetime",
+  "include_global_scope": null,
+  "max_length": null,
+  "name": "Published date",
+  "studio_configuration": null,
+  "sys_application": {
+    "sys_class_name": "sys_application",
+    "sys_id": "6688129130405298176"
+  },
+  "sys_class_name": "sys_dictionary",
+  "sys_created_by": "admin",
+  "sys_created_on": "2020-07-12T17:30:41.234Z",
+  "sys_id": "6688132478391025664",
+  "sys_mod_count": 0,
+  "sys_updated_by": "admin",
+  "sys_updated_on": "2020-07-12T17:30:41.270Z",
+  "track": null
+}
