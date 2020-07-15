@@ -1,0 +1,22 @@
+{
+  "active": true,
+  "app": {
+    "sys_id": "6689258760516403200",
+    "sys_class_name": "sys_navmenu_app",
+    "display_value": "Blog content"
+  },
+  "link": "/blog/admin/list?table=x_6688129130405298176_post",
+  "name": "Posts",
+  "order": 100,
+  "sys_application": {
+    "sys_class_name": "sys_application",
+    "sys_id": "6688129130405298176"
+  },
+  "sys_class_name": "sys_navmenu_module",
+  "sys_created_by": "admin",
+  "sys_created_on": "2020-07-15T20:06:48.489Z",
+  "sys_id": "6689258927156101120",
+  "sys_mod_count": 0,
+  "sys_updated_by": "admin",
+  "sys_updated_on": "2020-07-15T20:06:48.489Z"
+}
