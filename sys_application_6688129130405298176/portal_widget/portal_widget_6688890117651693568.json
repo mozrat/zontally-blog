@@ -1,5 +1,5 @@
 {
-  "html": "<nav class=\"navbar navbar-expand-lg navbar-light fixed-top\" id=\"mainNav\">\n    <div class=\"container\">\n      <a class=\"navbar-brand\" href=\"index.html\">Blog</a>\n      <button class=\"navbar-toggler navbar-toggler-right\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarResponsive\" aria-controls=\"navbarResponsive\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n        Menu\n        <i class=\"fas fa-bars\"></i>\n      </button>\n      <div class=\"collapse navbar-collapse\" id=\"navbarResponsive\">\n        <ul class=\"navbar-nav ml-auto\">\n          <li class=\"nav-item\">\n            <a class=\"nav-link\" href=\"index.html\">Home</a>\n          </li>\n          <li class=\"nav-item\">\n            <a class=\"nav-link\" href=\"about.html\">About</a>\n          </li>\n          <li class=\"nav-item\">\n            <a class=\"nav-link\" href=\"post.html\">Sample Post</a>\n          </li>\n          <li class=\"nav-item\">\n            <a class=\"nav-link\" href=\"contact.html\">Contact</a>\n          </li>\n        </ul>\n      </div>\n    </div>\n  </nav>\n<header class=\"masthead\" style=\"background-image: url('img/post-bg.jpg')\">\n    <div class=\"overlay\"></div>\n    <div class=\"container\">\n      <div class=\"row\">\n        <div class=\"col-lg-8 col-md-10 mx-auto\">\n          <div class=\"post-heading\">\n            <h1>Man must explore, and this is exploration at its greatest</h1>\n            <h2 class=\"subheading\">Problems look mighty small from 150 miles up</h2>\n            <span class=\"meta\">Posted by\n              <a href=\"#\">Start Bootstrap</a>\n              on August 24, 2019</span>\n          </div>\n        </div>\n      </div>\n    </div>\n  </header>",
+  "html": "<nav class=\"navbar navbar-expand-lg navbar-light fixed-top\" id=\"mainNav\">\n    <div class=\"container\">\n      <a class=\"navbar-brand\" href=\"index.html\">Blog</a>\n      <button class=\"navbar-toggler navbar-toggler-right\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarResponsive\" aria-controls=\"navbarResponsive\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n        Menu\n        <i class=\"fas fa-bars\"></i>\n      </button>\n      <div class=\"collapse navbar-collapse\" id=\"navbarResponsive\">\n        <ul class=\"navbar-nav ml-auto\">\n          <li class=\"nav-item\">\n            <a class=\"nav-link\" href=\"index.html\">Home</a>\n          </li>\n          <li class=\"nav-item\">\n            <a class=\"nav-link\" href=\"about.html\">About</a>\n          </li>\n          <li class=\"nav-item\">\n            <a class=\"nav-link\" href=\"post.html\">Sample Post</a>\n          </li>\n          <li class=\"nav-item\">\n            <a class=\"nav-link\" href=\"contact.html\">Contact</a>\n          </li>\n        </ul>\n      </div>\n    </div>\n  </nav>\n",
   "id": "blog-header",
   "name": "Blog header",
   "sys_application": {
@@ -10,7 +10,7 @@
   "sys_created_by": "admin",
   "sys_created_on": "2020-07-14T19:41:17.431Z",
   "sys_id": "6688890117651693568",
-  "sys_mod_count": 1,
+  "sys_mod_count": 2,
   "sys_updated_by": "admin",
-  "sys_updated_on": "2020-07-14T19:48:42.983Z"
+  "sys_updated_on": "2020-07-15T19:43:07.967Z"
 }
