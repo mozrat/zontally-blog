@@ -1,5 +1,5 @@
 {
-  "active": null,
+  "active": true,
   "css": "* { box-sizing: border-box; } body {margin: 0;}*{box-sizing:border-box;}body{margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px;}",
   "html": "<common-widget sys_id=\"6688890117651693568\" data-sysid=\"6688890117651693568\"></common-widget><common-widget sys_id=\"6689257965620297728\" data-sysid=\"6689257965620297728\"></common-widget>",
   "id": "blog-post",
@@ -13,7 +13,7 @@
   "sys_created_by": "admin",
   "sys_created_on": "2020-07-15T19:56:59.318Z",
   "sys_id": "6689256456031567872",
-  "sys_mod_count": 2,
+  "sys_mod_count": 3,
   "sys_updated_by": "admin",
-  "sys_updated_on": "2020-07-15T20:05:44.317Z"
+  "sys_updated_on": "2020-07-19T20:29:22.493Z"
 }
