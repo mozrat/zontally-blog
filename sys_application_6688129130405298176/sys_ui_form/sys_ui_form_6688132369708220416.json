@@ -1,5 +1,5 @@
 {
-  "layout": "[{\"layout\":{\"1\":[\"Title\",\"Published date\",\"Post\"]}}]",
+  "layout": "[{\"layout\":{\"1\":[\"title\",\"published_date\",\"post\"]}}]",
   "sys_application": {
     "sys_class_name": "sys_application",
     "sys_id": "6688129130405298176"
@@ -8,8 +8,8 @@
   "sys_created_by": "admin",
   "sys_created_on": "2020-07-12T17:30:16.247Z",
   "sys_id": "6688132369708220416",
-  "sys_mod_count": 2,
+  "sys_mod_count": 4,
   "sys_updated_by": "admin",
-  "sys_updated_on": "2020-07-15T20:08:11.450Z",
+  "sys_updated_on": "2020-07-19T10:27:38.838Z",
   "table": "x_6688129130405298176_post"
 }

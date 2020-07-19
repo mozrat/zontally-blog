@@ -4,7 +4,7 @@
   "field_type": "html",
   "include_global_scope": null,
   "max_length": null,
-  "name": "Post",
+  "name": "post",
   "studio_configuration": null,
   "sys_application": {
     "sys_class_name": "sys_application",
@@ -14,8 +14,8 @@
   "sys_created_by": "admin",
   "sys_created_on": "2020-07-12T17:30:41.270Z",
   "sys_id": "6688132478504271872",
-  "sys_mod_count": 0,
+  "sys_mod_count": 1,
   "sys_updated_by": "admin",
-  "sys_updated_on": "2020-07-12T17:30:41.270Z",
+  "sys_updated_on": "2020-07-19T10:22:42.168Z",
   "track": null
 }
