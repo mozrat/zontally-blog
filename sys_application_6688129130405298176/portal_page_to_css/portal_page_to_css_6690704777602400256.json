@@ -1,0 +1,22 @@
+{
+  "file": {
+    "sys_id": "6688893449355132928",
+    "sys_class_name": "portal_css_file",
+    "display_value": "Blog CSS"
+  },
+  "page": {
+    "sys_id": "6689256456031567872",
+    "sys_class_name": "portal_page",
+    "display_value": "blog-post"
+  },
+  "sys_application": {
+    "sys_id": "6688129130405298176"
+  },
+  "sys_class_name": "portal_page_to_css",
+  "sys_created_by": "admin",
+  "sys_created_on": "2020-07-19T19:52:06.139Z",
+  "sys_id": "6690704777602400256",
+  "sys_mod_count": 0,
+  "sys_updated_by": "admin",
+  "sys_updated_on": "2020-07-19T19:52:06.139Z"
+}

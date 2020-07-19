@@ -1,0 +1,21 @@
+{
+  "name": "Blog Post",
+  "order": 100,
+  "page": {
+    "display_value": "blog-post",
+    "sys_class_name": "portal_page",
+    "sys_id": "6689256456031567872"
+  },
+  "regex": "(?<year>\\d{4})\\/(?<month>\\d{2})\\/(?<sys_id>\\d{12,})",
+  "sys_application": {
+    "sys_class_name": "sys_application",
+    "sys_id": "6688129130405298176"
+  },
+  "sys_class_name": "sys_app_url_fragment",
+  "sys_created_by": "admin",
+  "sys_created_on": "2020-07-19T19:39:01.065Z",
+  "sys_id": "6690701484750798848",
+  "sys_mod_count": 0,
+  "sys_updated_by": "admin",
+  "sys_updated_on": "2020-07-19T19:39:01.065Z"
+}

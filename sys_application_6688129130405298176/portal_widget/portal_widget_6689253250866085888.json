@@ -1,8 +1,8 @@
 {
-  "html": "<header class=\"masthead\" style=\"background-image: url('img/post-bg.jpg')\">\n    <div class=\"overlay\"></div>\n    <div class=\"container\">\n      <div class=\"row\">\n        <div class=\"col-lg-8 col-md-10 mx-auto\">\n          <div class=\"post-heading\">\n            <h1>Simon Morris</h1>\n            <h2 class=\"subheading\">Talking about the Future of Work, Digital Transformation, Unicorns and Rainbows</h2>\n          </div>\n        </div>\n      </div>\n    </div>\n  </header>\n<div>\n  \n  {^{for data.posts}}\n  <h1>{^{>title}}</h1>\n  <div data-link=\"html{:post}\"></div>\n  {{else}}\n  <li>There are no posts</li>\n  {{/for}}\n  \n</div>",
+  "html": "<header class=\"masthead\" style=\"background-image: url('img/post-bg.jpg')\">\n    <div class=\"overlay\"></div>\n    <div class=\"container\">\n      <div class=\"row\">\n        <div class=\"col-lg-8 col-md-10 mx-auto\">\n          <div class=\"post-heading\">\n            <h1>Simon Morris</h1>\n            <h2 class=\"subheading\">Talking about the Future of Work, Digital Transformation, Unicorns and Rainbows</h2>\n          </div>\n        </div>\n      </div>\n    </div>\n  </header>\n<div class=\"container\">\n  \n\t<div class=\"row\">\n      <div class=\"col-md-8 offset-md-2\">\n  \t\t{^{for data.posts}}\n        <h1><a data-link=\"href{:link}\">{^{>title}}</a></h1>\n  \t\t<div data-link=\"html{:subtitle}\"></div>\n  \t\t{{else}}\n  \t\t<li>There are no posts</li>\n  \t\t{{/for}}\n      </div>\n\t</div>\n</div>",
   "id": "homepage-banner",
   "name": "Homepage banner",
-  "server_script": "(async () => {\n\n  const posts = await ORM.query('x_6688129130405298176_post', '');\n  const result = [];\n  for (const p of posts) {\n    Log.info(`Post ${JSON.stringify(p)}`);\n  \tresult.push({\n    \ttitle: p.title,\n      \tpost: p.post\n    });\n  }\n  \n  data.posts = result;\n  \n})();",
+  "server_script": "(async () => {\n\n  const posts = await ORM.query('x_6688129130405298176_post', '');\n  const result = [];\n  for (const p of posts) {\n    \n    const publishedDate = p.sys_created_on;\n    const publishedYear = publishedDate.slice(0, 4);\n    const publishedMonth = publishedDate.slice(5, 7)\n\n    result.push({\n    \ttitle: p.title,\n      \tsubtitle: p.subtitle,\n      \tpublishedYear,\n      \tpublishedMonth,\n      \tlink: `/blog/${publishedYear}/${publishedMonth}/${p.sys_id}`\n    });\n  }\n  \n  data.posts = result;\n  \n})();",
   "sys_application": {
     "sys_class_name": "sys_application",
     "sys_id": "6688129130405298176"
@@ -11,7 +11,7 @@
   "sys_created_by": "admin",
   "sys_created_on": "2020-07-15T19:44:15.199Z",
   "sys_id": "6689253250866085888",
-  "sys_mod_count": 10,
+  "sys_mod_count": 15,
   "sys_updated_by": "admin",
-  "sys_updated_on": "2020-07-19T10:44:00.289Z"
+  "sys_updated_on": "2020-07-19T19:35:15.038Z"
 }
