@@ -1,4 +1,5 @@
 {
+  "sys_id": "6688129130405298176",
   "default_page": {
     "display_value": "blog-homepage",
     "sys_class_name": "portal_page",
@@ -19,7 +20,6 @@
   "sys_class_name": "sys_application",
   "sys_created_by": "admin",
   "sys_created_on": "2020-07-12T17:17:23.855Z",
-  "sys_id": "6688129130405298176",
   "sys_mod_count": 9,
   "sys_updated_by": "admin",
   "sys_updated_on": "2020-07-20T18:56:22.427Z"

@@ -1,0 +1,16 @@
+{
+  "html": "<hr/>\n<footer>\n    <div class=\"container\">\n      <div class=\"row\">\n        <div class=\"col-lg-8 col-md-10 mx-auto\">\n          <ul class=\"list-inline text-center\">\n            <li class=\"list-inline-item\">\n              <a href=\"#\">\n                <span class=\"fa-stack fa-lg\">\n                  <i class=\"fas fa-circle fa-stack-2x\"></i>\n                  <i class=\"fab fa-twitter fa-stack-1x fa-inverse\"></i>\n                </span>\n              </a>\n            </li>\n            <li class=\"list-inline-item\">\n              <a href=\"#\">\n                <span class=\"fa-stack fa-lg\">\n                  <i class=\"fas fa-circle fa-stack-2x\"></i>\n                  <i class=\"fab fa-facebook-f fa-stack-1x fa-inverse\"></i>\n                </span>\n              </a>\n            </li>\n            <li class=\"list-inline-item\">\n              <a href=\"#\">\n                <span class=\"fa-stack fa-lg\">\n                  <i class=\"fas fa-circle fa-stack-2x\"></i>\n                  <i class=\"fab fa-github fa-stack-1x fa-inverse\"></i>\n                </span>\n              </a>\n            </li>\n          </ul>\n          <p class=\"copyright text-muted\">Copyright © Your Website 2019</p>\n        </div>\n      </div>\n    </div>\n  </footer>",
+  "id": "blog-footer",
+  "name": "Blog footer",
+  "sys_application": {
+    "sys_class_name": "sys_application",
+    "sys_id": "6688129130405298176"
+  },
+  "sys_class_name": "portal_widget",
+  "sys_created_by": "admin",
+  "sys_created_on": "2020-07-20T19:15:20.475Z",
+  "sys_id": "6691057914305576960",
+  "sys_mod_count": 0,
+  "sys_updated_by": "admin",
+  "sys_updated_on": "2020-07-20T19:15:20.475Z"
+}

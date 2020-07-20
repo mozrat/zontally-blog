@@ -1,7 +1,7 @@
 {
   "active": null,
-  "css": "* { box-sizing: border-box; } body {margin: 0;}",
-  "html": "<common-widget sys_id=\"6688890117651693568\" data-sysid=\"6688890117651693568\"></common-widget><common-widget sys_id=\"6689253250866085888\" data-sysid=\"6689253250866085888\"></common-widget>",
+  "css": "* { box-sizing: border-box; } body {margin: 0;}*{box-sizing:border-box;}body{margin-top:0px;margin-right:0px;margin-bottom:0px;margin-left:0px;}",
+  "html": "<common-widget sys_id=\"6688890117651693568\" data-sysid=\"6688890117651693568\"></common-widget><common-widget sys_id=\"6689253250866085888\" data-sysid=\"6689253250866085888\"></common-widget><common-widget sys_id=\"6691057914305576960\" data-sysid=\"6691057914305576960\"></common-widget>",
   "id": "blog-homepage",
   "name": "Blog homepage",
   "public": null,
@@ -13,7 +13,7 @@
   "sys_created_by": "admin",
   "sys_created_on": "2020-07-14T19:34:44.421Z",
   "sys_id": "6688888468711407616",
-  "sys_mod_count": 3,
+  "sys_mod_count": 4,
   "sys_updated_by": "admin",
-  "sys_updated_on": "2020-07-15T19:54:25.948Z"
+  "sys_updated_on": "2020-07-20T19:16:27.463Z"
 }

@@ -1,0 +1,18 @@
+{
+  "content_type": "image/jpeg",
+  "element": "cover_image",
+  "file_sys_id": "6691055076317855744",
+  "file_table": "x_6688129130405298176_post",
+  "name": "post-bg.jpg",
+  "sys_application": {
+    "sys_class_name": "sys_application",
+    "sys_id": "6688129130405298176"
+  },
+  "sys_class_name": "sys_attachment",
+  "sys_created_by": "admin",
+  "sys_created_on": "2020-07-20T19:12:38.278Z",
+  "sys_id": "6691057229799358464",
+  "sys_mod_count": 0,
+  "sys_updated_by": "admin",
+  "sys_updated_on": "2020-07-20T19:12:38.278Z"
+}
