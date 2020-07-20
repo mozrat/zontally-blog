@@ -7,8 +7,6 @@
   "default_ui": "portal",
   "default_url": "/blog",
   "description": "",
-  "guest_user": null,
-  "id": null,
   "name": "Zontally Blog",
   "repository_password": "",
   "repository_state": "connected",
@@ -22,8 +20,7 @@
   "sys_created_by": "admin",
   "sys_created_on": "2020-07-12T17:17:23.855Z",
   "sys_id": "6688129130405298176",
-  "sys_mod_count": 8,
+  "sys_mod_count": 9,
   "sys_updated_by": "admin",
-  "sys_updated_on": "2020-07-19T20:26:59.022Z",
-  "theme": null
+  "sys_updated_on": "2020-07-20T18:56:22.427Z"
 }

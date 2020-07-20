@@ -1,0 +1,21 @@
+{
+  "action": "read",
+  "name": "x_6688129130405298176_post",
+  "roles": [
+    {
+      "display": "admin",
+      "value": "6578606936407670785"
+    }
+  ],
+  "sys_application": {
+    "sys_id": "6688129130405298176"
+  },
+  "sys_class_name": "auth_access_control",
+  "sys_created_by": "admin",
+  "sys_created_on": "2020-07-20T18:57:21.151Z",
+  "sys_id": "6691053386705403904",
+  "sys_mod_count": 0,
+  "sys_updated_by": "admin",
+  "sys_updated_on": "2020-07-20T18:57:21.151Z",
+  "table": "x_6688129130405298176_post"
+}

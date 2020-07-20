@@ -1,10 +1,10 @@
 {
   "collection": "x_6688129130405298176_post",
   "display_value": null,
-  "field_type": "string",
+  "field_type": "integer",
   "include_global_scope": null,
-  "max_length": 1000,
-  "name": "subtitle",
+  "max_length": null,
+  "name": "sys_mod_count",
   "studio_configuration": null,
   "sys_application": {
     "sys_class_name": "sys_application",
@@ -12,10 +12,10 @@
   },
   "sys_class_name": "sys_dictionary",
   "sys_created_by": "admin",
-  "sys_created_on": "2020-07-19T19:28:08.433Z",
-  "sys_id": "6690698749552885760",
-  "sys_mod_count": 1,
+  "sys_created_on": "2020-07-20T18:57:31.253Z",
+  "sys_id": "6691053431085334528",
+  "sys_mod_count": 0,
   "sys_updated_by": "admin",
-  "sys_updated_on": "2020-07-20T19:02:41.824Z",
+  "sys_updated_on": "2020-07-20T18:57:31.253Z",
   "track": null
 }

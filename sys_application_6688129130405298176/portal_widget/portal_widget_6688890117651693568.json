@@ -1,4 +1,5 @@
 {
+  "client_script": "(function($) {\n  \"use strict\"; // Start of use strict\n\n  // Floating label headings for the contact form\n  $(\"body\").on(\"input propertychange\", \".floating-label-form-group\", function(e) {\n    $(this).toggleClass(\"floating-label-form-group-with-value\", !!$(e.target).val());\n  }).on(\"focus\", \".floating-label-form-group\", function() {\n    $(this).addClass(\"floating-label-form-group-with-focus\");\n  }).on(\"blur\", \".floating-label-form-group\", function() {\n    $(this).removeClass(\"floating-label-form-group-with-focus\");\n  });\n\n  // Show the navbar when the page is scrolled up\n  var MQL = 992;\n\n  //primary navigation slide-in effect\n  if ($(window).width() > MQL) {\n    var headerHeight = $('#mainNav').height();\n    $(window).on('scroll', {\n        previousTop: 0\n      },\n      function() {\n        var currentTop = $(window).scrollTop();\n        //check if user is scrolling up\n        if (currentTop < this.previousTop) {\n          //if scrolling up...\n          if (currentTop > 0 && $('#mainNav').hasClass('is-fixed')) {\n            $('#mainNav').addClass('is-visible');\n          } else {\n            $('#mainNav').removeClass('is-visible is-fixed');\n          }\n        } else if (currentTop > this.previousTop) {\n          //if scrolling down...\n          $('#mainNav').removeClass('is-visible');\n          if (currentTop > headerHeight && !$('#mainNav').hasClass('is-fixed')) $('#mainNav').addClass('is-fixed');\n        }\n        this.previousTop = currentTop;\n      });\n  }\n\n})(jQuery); // End of use strict\n",
   "html": "<nav class=\"navbar navbar-expand-lg navbar-light fixed-top\" id=\"mainNav\">\n    <div class=\"container\">\n      <a class=\"navbar-brand\" href=\"index.html\">Blog</a>\n      <button class=\"navbar-toggler navbar-toggler-right\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarResponsive\" aria-controls=\"navbarResponsive\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n        Menu\n        <i class=\"fas fa-bars\"></i>\n      </button>\n      <div class=\"collapse navbar-collapse\" id=\"navbarResponsive\">\n        <ul class=\"navbar-nav ml-auto\">\n          <li class=\"nav-item\">\n            <a class=\"nav-link\" href=\"index.html\">Home</a>\n          </li>\n          <li class=\"nav-item\">\n            <a class=\"nav-link\" href=\"about.html\">About</a>\n          </li>\n          <li class=\"nav-item\">\n            <a class=\"nav-link\" href=\"post.html\">Sample Post</a>\n          </li>\n          <li class=\"nav-item\">\n            <a class=\"nav-link\" href=\"contact.html\">Contact</a>\n          </li>\n        </ul>\n      </div>\n    </div>\n  </nav>\n",
   "id": "blog-header",
   "name": "Blog header",
@@ -10,7 +11,7 @@
   "sys_created_by": "admin",
   "sys_created_on": "2020-07-14T19:41:17.431Z",
   "sys_id": "6688890117651693568",
-  "sys_mod_count": 2,
+  "sys_mod_count": 3,
   "sys_updated_by": "admin",
-  "sys_updated_on": "2020-07-15T19:43:07.967Z"
+  "sys_updated_on": "2020-07-20T19:01:37.428Z"
 }
