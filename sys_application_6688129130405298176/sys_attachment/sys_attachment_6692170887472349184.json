@@ -1,0 +1,18 @@
+{
+  "content_type": "application/zip",
+  "element": "file",
+  "file_sys_id": "6692170884498587648",
+  "file_table": "sys_store_published_application_version",
+  "name": "6688129130405298176.0.0.1.zip",
+  "sys_application": {
+    "sys_class_name": "sys_application",
+    "sys_id": "6688129130405298176"
+  },
+  "sys_class_name": "sys_attachment",
+  "sys_created_by": "admin",
+  "sys_created_on": "2020-07-23T20:57:54.107Z",
+  "sys_id": "6692170887472349184",
+  "sys_mod_count": 0,
+  "sys_updated_by": "admin",
+  "sys_updated_on": "2020-07-23T20:57:54.107Z"
+}

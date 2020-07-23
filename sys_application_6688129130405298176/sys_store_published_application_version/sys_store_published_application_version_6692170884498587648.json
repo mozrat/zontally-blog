@@ -1,0 +1,18 @@
+{
+  "file": {
+    "filename": "6688129130405298176.0.0.1.zip",
+    "sys_id": "6692170887472349184"
+  },
+  "release_notes": "test",
+  "sys_application": {
+    "sys_id": "6688129130405298176"
+  },
+  "sys_class_name": "sys_store_published_application_version",
+  "sys_created_by": "admin",
+  "sys_created_on": "2020-07-23T20:57:53.256Z",
+  "sys_id": "6692170884498587648",
+  "sys_mod_count": 1,
+  "sys_updated_by": "admin",
+  "sys_updated_on": "2020-07-23T20:57:54.799Z",
+  "version_number": "0.0.1"
+}

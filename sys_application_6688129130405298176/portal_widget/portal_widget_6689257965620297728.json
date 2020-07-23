@@ -3,7 +3,7 @@
   "html": "<header class=\"masthead\" style=\"background-image: url('img/post-bg.jpg')\">\n    <div class=\"overlay\"></div>\n    <div class=\"container\">\n      <div class=\"row\">\n        <div class=\"col-lg-8 col-md-10 mx-auto\">\n          <div class=\"post-heading\">\n            <h1>{^{>data.post.title}}</h1>\n            <h2 class=\"subheading\">{^{>data.post.subtitle}}</h2>\n          </div>\n        </div>\n      </div>\n    </div>\n  </header>\n<div class=\"container\">\n  \n\t<div class=\"row\">\n      <div class=\"col-md-8 offset-md-2\">\n  \t\t<div data-link=\"html{:data.post.post}\"></div>\n      </div>\n\t</div>\n</div>",
   "id": "post-banner",
   "name": "Post banner",
-  "server_script": "(async () => {\n\n\tconst post = await ORM.getRecord('x_6688129130405298176_post', $widget.getParameter('sys_id'));\n  \tdata.post = {};\n  \tif (!post) {\n      return;\n    }\n  \t\n  \tdata.post.title = post.title;\n  \tdata.post.subtitle = post.subtitle;\n  \tdata.post.post = post.post;\n  \n})()",
+  "server_script": "(async () => {\n\n\tconst post = await ORM.getRecord('x_6688129130405298176_post', $widget.getParameter('sys_id'));\n  \tdata.post = {};\n  \tif (!post) {\n      return;\n    }\n  \t\n  \tdata.post.title = post.title;\n  \tdata.post.subtitle = post.subtitle;\n  \tdata.post.post = post.post;\n  \tdata.post.banner_image = `/api/attachment/${post.banner_image.sys_id}/${post.banner_image.filename}`;\n  \n})()",
   "sys_application": {
     "sys_class_name": "sys_application",
     "sys_id": "6688129130405298176"
@@ -12,7 +12,7 @@
   "sys_created_by": "admin",
   "sys_created_on": "2020-07-15T20:02:59.365Z",
   "sys_id": "6689257965620297728",
-  "sys_mod_count": 10,
+  "sys_mod_count": 11,
   "sys_updated_by": "admin",
-  "sys_updated_on": "2020-07-20T18:59:14.740Z"
+  "sys_updated_on": "2020-07-23T21:13:08.454Z"
 }
