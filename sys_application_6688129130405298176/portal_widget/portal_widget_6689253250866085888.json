@@ -1,4 +1,5 @@
 {
+  "client_script": "console.log(`NUMBER OF POSTS=${$widget.data.posts.length}`);",
   "html": "<header class=\"masthead\" style=\"background-image: url('img/post-bg.jpg')\">\n    <div class=\"overlay\"></div>\n    <div class=\"container\">\n      <div class=\"row\">\n        <div class=\"col-lg-8 col-md-10 mx-auto\">\n          <div class=\"post-heading\">\n            <h1>Simon Morris</h1>\n            <h2 class=\"subheading\">Talking about the Future of Work, Digital Transformation, Unicorns and Rainbows</h2>\n          </div>\n        </div>\n      </div>\n    </div>\n  </header>\n<div class=\"container\">\n  \n\t<div class=\"row\">\n      <div class=\"col-md-8 offset-md-2\">\n  \t\t{^{for data.posts}}\n        <h1><a data-link=\"href{:link}\">{^{>title}}</a></h1>\n  \t\t<div data-link=\"html{:subtitle}\"></div>\n  \t\t{{else}}\n  \t\t<li>There are no posts</li>\n  \t\t{{/for}}\n      </div>\n\t</div>\n</div>",
   "id": "homepage-banner",
   "name": "Homepage banner",
@@ -11,7 +12,7 @@
   "sys_created_by": "admin",
   "sys_created_on": "2020-07-15T19:44:15.199Z",
   "sys_id": "6689253250866085888",
-  "sys_mod_count": 15,
+  "sys_mod_count": 20,
   "sys_updated_by": "admin",
-  "sys_updated_on": "2020-07-19T19:35:15.038Z"
+  "sys_updated_on": "2020-07-28T19:35:44.380Z"
 }
