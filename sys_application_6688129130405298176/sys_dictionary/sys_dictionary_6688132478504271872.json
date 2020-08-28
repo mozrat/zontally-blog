@@ -14,8 +14,9 @@
   "sys_created_by": "admin",
   "sys_created_on": "2020-07-12T17:30:41.270Z",
   "sys_id": "6688132478504271872",
-  "sys_mod_count": 1,
+  "sys_mod_count": 2,
   "sys_updated_by": "admin",
-  "sys_updated_on": "2020-07-19T10:22:42.168Z",
-  "track": null
+  "sys_updated_on": "2020-08-28T20:50:38.203Z",
+  "track": null,
+  "text_index": true
 }
